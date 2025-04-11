@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">GPS distance meter</string>
+    <string name="distance_format">%.3f Km</string>
+</resources>

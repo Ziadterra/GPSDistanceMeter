@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="0sp"
+    android:background="@drawable/imagee"
+    android:fadingEdge="horizontal|vertical"
+    tools:context="com.ziad.gps_distance_meter.MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0sp"
+        android:background="#CE71767E"
+        android:fontFamily="serif-monospace"
+        android:selectAllOnFocus="false"
+        android:text="GPS Distance Meter"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#31383E"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/Btn_Dis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25sp"
+        android:backgroundTint="#D75C4B42"
+        android:text="Distance traveled"
+        android:textColor="#E1DCDC"
+        android:textSize="25sp"
+
+        />
+
+
+    <Button
+        android:id="@+id/Btn_loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200sp"
+        android:backgroundTint="#D75C4B42"
+        android:text="Current location"
+        android:textColor="#E1DCDC"
+        android:textSize="25sp"
+        tools:layout_editor_absoluteX="69sp"
+        tools:layout_editor_absoluteY="109sp" />
+
+    <TextView
+        android:id="@+id/warning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/Btn_loc"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginTop="50sp"
+
+        android:layout_marginBottom="537sp"
+        android:text="NOTE : Please enable location and network for this app to function properly"
+        android:textAlignment="center"
+        android:textColor="#C8483E"
+        android:textSize="20sp" />
+
+
+
+
+
+
+</RelativeLayout>
+

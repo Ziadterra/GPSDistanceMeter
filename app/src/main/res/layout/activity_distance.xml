@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ziad.gps_distance_meter.Distance"
+    android:background="@drawable/imagee"
+    >
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn_stop"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#BF4444"
+        android:text="Back"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+
+
+        android:background="#CE71767E"
+
+
+        android:fontFamily="serif-monospace"
+
+        android:selectAllOnFocus="false"
+        android:text="GPS Distance Meter"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#31383E"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#98CD72"
+        android:text="Start measuring"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+
+
+
+        />
+
+    <TextView
+        android:id="@+id/txt_value"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_below="@+id/btn_start"
+        android:layout_marginTop="50dp"
+        android:background="#7F000000"
+        android:gravity="center"
+        android:text="0.000 Km"
+        android:textAlignment="center"
+        android:textColor="#ECEAEA"
+        android:textSize="50dp"
+
+        />
+
+    <Button
+        android:id="@+id/btn_stop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_value"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#FFAAAAAA"
+        android:enabled="false"
+        android:text="Stop measuring"
+        android:textColor="#FF777777"
+        android:textSize="25dp"
+
+        />
+
+
+    <Switch
+        android:id="@+id/speed"
+        android:layout_width="315dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/btn_back"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="driving  /  walking" />
+
+
+
+</RelativeLayout>
