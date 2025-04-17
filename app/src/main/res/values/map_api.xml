@@ -2,7 +2,7 @@
 <resources>
     
    <string name="map_key" translatable="false">
-    AIzaSyBXd2MiqfCSgiwjIvOJWplT32Zs8I-oImk
+    Insert_Google_Maps_API_Key_Here
    </string>
     
 </resources>
